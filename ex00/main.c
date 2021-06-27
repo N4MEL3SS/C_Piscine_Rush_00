@@ -1,11 +1,7 @@
-void	rush(int width, int height);
+void	rush(int x, int y);
 
 int	main(void)
 {
-	int	width;
-	int	height;
-
-	width = 25;
-	height = 10;
-	rush(width, height);
+	rush(5, 5);
+	return (0);
 }

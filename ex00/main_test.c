@@ -50,10 +50,14 @@ void	rush(int x, int y)
 
 int	main(void)
 {
-	int	x_width;
-	int	y_height;
-
-	x_width = 2147483647;
-	y_height = 5;
-	rush(x_width, y_height);
+	rush(5, 1);
+	rush(5, 2);
+	rush(5, 3);
+	rush(5, 5);
+	rush(1, 5);
+	rush(0, 5);
+	rush(5, 0);
+	rush(-1, 5);
+	rush(5, -1);
+	return (0);
 }

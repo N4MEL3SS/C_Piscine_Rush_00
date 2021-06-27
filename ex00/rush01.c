@@ -1,10 +1,10 @@
 void	ft_putchar(char c);
 
-void	ft_print(int x, char first_char, char mid_char, char end_char)
+void	ft_print(int x, char fst_char, char mid_char, char lst_char)
 {
 	if (x > 0)
 	{
-		ft_putchar(first_char);
+		ft_putchar(fst_char);
 		x--;
 	}
 	while (x > 1)
@@ -13,7 +13,7 @@ void	ft_print(int x, char first_char, char mid_char, char end_char)
 		x--;
 	}
 	if (x == 1)
-		ft_putchar(end_char);
+		ft_putchar(lst_char);
 	ft_putchar('\n');
 }
 
